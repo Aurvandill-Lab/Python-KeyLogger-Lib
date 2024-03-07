@@ -8,7 +8,7 @@ A python package providing a multi-threaded keylogger by setting a global low-le
 - Non thread-blocking !!
 
 ## How to install ?
-Download the project and extract it to your project base directory,
+Download the project and extract it to your project base directory,  
 so yout project directory shall look something like this: 
 ```
 ---------- YourLib/
@@ -26,7 +26,7 @@ pip install .
 on where the setup.py lies.
 
 ## How to use ?
-After installing the library, 
+After installing the library,  
 you will need to subclass **KeyLoggerCore** to build your own keylogger like the folowing example:
 ```python
 from PyKeyLogger import KeyLoggerCore
@@ -50,7 +50,7 @@ Start the keylogger by calling the **start()** method:
 ```python
 mylogger.start()
 ```
-Since it isn't thread-blovking, 
+Since it isn't thread-blocking,  
 so you can stop it whenever you like by invoking the **stop()** method to halt it:
 ```python
 mylogger.stop()
