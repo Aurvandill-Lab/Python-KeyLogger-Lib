@@ -31,7 +31,7 @@ you will need to subclass **KeyLoggerCore** to build your own keylogger like the
 ```python
 from PyKeyLogger import KeyLoggerCore
 
-MyKeyLogger(KeyLoggerCore):
+class MyKeyLogger(KeyLoggerCore):
   def __init__(self, logfile_path):
     super().__init__()
     self.logfile = logfile_path
