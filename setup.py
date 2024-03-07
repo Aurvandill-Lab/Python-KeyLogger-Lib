@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Py-KeyLogger',
+    name='PyKeyLogger',
     version='0.1.0-alpha',
     author="Aurvandill Lab",
     author_email='aurvandillresearch@gmail.com',
